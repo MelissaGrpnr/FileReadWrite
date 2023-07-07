@@ -8,8 +8,8 @@ public class ReadWrite {
 
 	public static void main(String[] args) {
 		
-		String filePath ="C:\\Users\\Melissa\\Desktop\\e.txt";
-		String writePath= "C:\\Users\\Melissa\\Desktop\\Yeni Metin Belgesi.txt";
+		String filePath ="C:\\Users\\username\\Desktop\\e.txt";
+		String writePath= "C:\\Users\\username\\Desktop\\Yeni Metin Belgesi.txt";
 	
 		try (BufferedReader reader = new BufferedReader(new FileReader(filePath));
 			BufferedWriter writer = new BufferedWriter(new FileWriter(writePath))) {
@@ -24,7 +24,7 @@ public class ReadWrite {
 		} 
 		
 		catch (IOException e) {
-			System.out.println("dosya okunamadý" + e.getMessage());
+			System.out.println("dosya okunamadÃ½" + e.getMessage());
 		}
 		
 
